@@ -9,7 +9,7 @@ catChat.settings = {
             console.log(error.description)
         }
     },
-    callback: (message) => {
+    callback: (message) => { // input message (!)
         console.log("Callback called.")
         return `${message}`
     },
